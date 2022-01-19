@@ -1,0 +1,1 @@
+export useStyles = const () => {}
