@@ -3,7 +3,7 @@ import GoogleMapReact from "google-map-react";
 import { Paper, Typography, useMediaQuery } from "@material-ui/core";
 import LocationOnOutlinedIcon from "@material-ui/icons";
 import Rating from "@material-ui/lab";
-import { apikey } from "./apiKey";
+import { apiKey } from "../../apiKey";
 
 // import useStyles from "./styles";
 
@@ -16,7 +16,7 @@ const Map = () => {
   return (
     <div style={{ height: "100vh", width: "100%" }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: apikey }}
+        bootstrapURLKeys={{ key: apiKey }}
         defaultCenter={coords}
         center={coords}
         defaultZoom={14}
