@@ -12,7 +12,7 @@
 // import { Paper, Typography, useMediaQuery } from "@material-ui/core";
 // // import LocationOnOutlinedIcon from "@material-ui/icons";
 // // import Rating from "@material-ui/lab";
-// import { apikey } from "./apiKey";
+// import { apiKey } from "./apiKey";
 // import { Button } from "@mui/material";
 
 // // import useStyles from "./styles";
@@ -53,7 +53,7 @@
 //     <div style={{ height: "100vh", width: "100%" }}>
 //       <Button onClick={displayRoute}>Display Route</Button>
 //       <GoogleMapReact
-//         bootstrapURLKeys={{ key: apikey }}
+//         bootstrapURLKeys={{ key: apiKey }}
 //         defaultCenter={coords}
 //         center={coords}
 //         defaultZoom={8}
