@@ -22,7 +22,6 @@ const Map = () => {
     googleMapsApiKey: apiKey,
     libraries,
   });
-  console.log("Key", apiKey);
 
   if (loadError) return "Error";
   if (!isLoaded) return "Loading...";
