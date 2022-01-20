@@ -25,7 +25,7 @@ const Route = () => {
     fillColor: "#FF0000",
     fillOpacity: 0.35,
     clickable: false,
-    draggable: false,
+    draggable: true,
     editable: false,
     visible: true,
     radius: 30000,
